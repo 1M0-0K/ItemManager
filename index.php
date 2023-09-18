@@ -48,8 +48,8 @@
 					<select id="sort" name="orderby">
 						<option value="id" selected="selected">ID</option>
 						<option value="locale_name">Name</option>
-						<option value="att">Physical Dmg</option>
-						<option value="mag">Magic Dmg</option>
+						<option value="att">Attribute0</option>
+						<option value="mag">Attribute1</option>
 					</select>
 					<button id="submit">
 						<svg viewBox="0 0 24 24" width="24" height="24">
@@ -77,8 +77,8 @@
 							<th>Type</th>
 							<th>Position</th>
 							<th>Amount</th>
-							<th>Physical Damage</th>
-							<th>Magic Damage</th>
+							<th>Attribute0</th>
+							<th>Attribute1</th>
 						</tr>
 					</thead>
 					<tbody>
